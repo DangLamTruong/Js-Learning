@@ -1,0 +1,116 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    align-items: stretch;
+    height: 1500px;
+}
+
+#left {
+    min-width: 200px;
+    max-width: 450px;
+    background-color: dodgerblue;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+#avatar {
+    width: 300px;
+    height: auto;
+    margin-top: 40px
+}
+.image {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+#name {
+    font-size: 40px;
+    font-weight: bold;
+}
+.job {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+#info {
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+}
+#info > li {
+    margin-bottom: 5px;
+}
+.description {
+    color:rgb(255, 153, 0);
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white;
+}
+#language {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.language_name {
+    margin-right: 60px;
+    margin-top:15px;
+    width: 90px;
+}
+
+.soft_skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.skill {
+    font-weight: bold;
+    margin-top: 15px;
+    /* padding: 20px; */
+}
+#reference {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.link {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    /* text-decoration: none; */
+}
+a {
+    text-decoration: none;
+}
+
+#right{
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.experience {
+    font-weight: bold;
+    text-decoration: underline;
+    color: dodgerblue;
+    /* margin-left: 20px; */
+}
+.detail{
+    margin-left: 20px; 
+    margin-bottom: 20px;
+}
+
+.time {
+    color:rgb(255, 153, 0);
+    font-weight: bold;
+}
+.info-project{
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+*{
+    font-size: 14px;
+}
+#info{
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#detail{
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    color: red;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.skill{
+    color: rgb(18, 201, 238);
+    font-size: 16px;
+    
+}
+
+.mainskill{
+    color: black;
+}
+
+hr{
+    margin-right: 70%;
+    border:0.5px solid;
+    
+}

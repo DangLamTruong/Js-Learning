@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    background-color: #e8e4e1;
+    display: flex;
+    justify-content: center;
+}
+
+.her {
+    position: relative;
+}
+
+.hair {
+    position: relative;
+    width: 230px;
+    height: 280px;
+    background-color: black;
+    border-radius: 90px 90px 0px 0px ;
+    /* border-top-left-radius: 90px;
+    border-top-right-radius: 90px; */
+}
+
+.hair__left {
+    height: 70px;
+    width: 38%;
+    background-color: #000;
+    position: absolute;
+    left: 5px;
+    top: 48px;
+    z-index: 3;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 110px 65px;
+}  
+
+.hair__right {
+    height: 90px;
+    width: 60%;
+    background-color: #000;
+    position: absolute;
+    top: 48px;
+    right: 3px;
+    z-index: 3;
+    border-bottom-left-radius: 120px 85px;
+    border-top-right-radius: 23px;
+}
+
+.hair__bot {
+    width: 200px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    bottom: -7px;
+    left: 15px;
+}
+
+.face {
+    position: relative;
+    width: 190px;
+    height: 231px;
+    background-color: #ffc4a3;
+    margin: auto;
+    top: -231px;
+    border-radius: 0px 0px 80px 80px;
+    z-index: 2;
+}
+
+.eye__left {
+    height: 40px;
+    width: 20px;
+    background-color: #000;
+    position: relative;
+    top: 85px;
+    left: 35px;
+    border-radius: 50%;
+}
+
+.eye__right {
+    height: 40px;
+    width: 20px;
+    background-color: #000;
+    position: relative;
+    top: 45px;
+    left: 130px;
+    border-radius: 50%;
+}
+
+.eye__balls--white {
+    height: 16px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 1px;
+}
+
+.mouth {
+    overflow: hidden;
+    height: 27px;
+    width: 50px;
+    background-color: #f96d80;
+    position: relative;
+    top: 90px;
+    left: 70px;
+    border-radius: 0px 0px 35px 35px;
+}
+
+.mouth__in {
+    height: 17px;
+    width: 35px;
+    background-color: #f6a8a7;
+    position: absolute;
+    top: 17px;
+    left: 13px;
+    border-radius: 10px 11px 0px 0px;
+}
+
+.neck {
+    position: absolute;
+    left: 90px;
+    width: 50px;
+    height: 60px;
+    background-color: #ffaf8c;
+    border-radius: 20px;
+    bottom: 130px;
+    z-index: 1;
+}
+
+.body {
+    display: block;
+    width: 260px;
+    height: 120px;
+    background-color: #4b8e8d;
+    border-radius: 130px 130px 0px 0px;
+    position: absolute;
+    top: 303px;
+    right: -15px;
+}
