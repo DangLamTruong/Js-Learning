@@ -7,7 +7,137 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./solutions.js"></script>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Form Demo</legend>
+            <div>
+                <label>
+                    Name
+                </label>
+                <input type="text" name="name" minlength="10" required />
+            </div>  
+            <div>
+                <label>
+                    Phone
+                </label>
+                <input type="number" name="phone" min="5" max="10" required/>
+            </div>
+            <h3>Gender</h3>
+            <div>
+                <input id="male" type="radio" name="gender" value="male" checked/>
+                <label for="male">
+                    Male
+                </label>
+            </div>
+            <div>
+                <input id="female" type="radio" name="gender" value="female"/>
+                <label for="female">
+                    female
+                </label>
+            </div>
+            <h3>Car</h3>
+            <div>
+                <input type="checkbox" name="car" value="bmw" />
+                <label for="bmw">
+                    BMW
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" name="car" value="maybach"/>
+                <label for="maybach">
+                    Maybach
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" name="car" value="porsche"/>
+                <label for="porsche">
+                    Porsche
+                </label>
+            </div>
+            <div>
+                <label for="language">Language</label>
+                <select name="language" value="js">
+                    <option value="js">Js</option>
+                    <option value="cpp">Cpp</option>
+                    <option value="python">Python</option>
+                    <option value="c++">C++</option>
+                </select>
+            </div>
+            <div>
+                <label>Date</label>
+                <input type="date" name="date"/>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password"/>
+            </div>
+            <div>
+                <label for="volume">Volume</label>
+                <input type="range" id="volume" name="volume"
+                       min="0" max="11">
+            </div>
+            <div>
+                <label for="cowbell">Cowbell</label>
+                <input type="range" id="cowbell" name="cowbell" 
+                       min="0" max="100" value="90" step="10">
+            </div>
+            <div>
+                <label>Search</label>
+                <input type="search" name="search"/>
+            </div>
+            <div>
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" id="phone" name="phone"
+                       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+            </div>
+            <div>
+                <label>Time</label>
+                <input type="time" name="time"/>
+            </div>
+            <div>
+                <label>Enter your URL</label>
+                <input type="url" name="url" placeholder="https://example.com"
+                pattern="https://.*" size="30" required>/>
+            </div>
+            <div>
+                <label>Week</label>
+                <input type="week" name="week"/>
+            </div>
+            <div>
+                <label>Color</label>
+                <input type="color" name="color"/>
+            </div>
+            <div>
+                <label>DateTime-Local</label>
+                <input type="datetime-local" name="datetime-local"/>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email"/>
+            </div>
+            <div>
+                <label>File</label>
+                <input type="file" name="file"/>
+            </div>
+            <div>
+                <label>Hidden</label>
+                <input type="hidden" name="hidden"/>
+            </div>
+            <div>
+                <label>Image</label>
+                <input type="image" id="image" alt="Login"
+                src="/media/examples/login-button.png"/>
+            </div>
+            <div>
+                <label>Month</label>
+                <input type="month" name="month"/>
+            </div>
+            <hr />
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </fieldset>
+    </form>
+    <!-- <script src="./solutions.js"></script> -->
     <!-- <script src="./index7.js"></script> -->
 </body>
 </html>
